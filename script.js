@@ -1,4 +1,4 @@
-/ pega o botão que mostra uma mensagem, usando o id dele no HTML
+// pega o botão que mostra uma mensagem, usando o id dele no HTML
 let botaoMensagem = document.getElementById("btnMensagem");
 
 // pega o botão que muda a cor do card, usando o id dele no HTML
