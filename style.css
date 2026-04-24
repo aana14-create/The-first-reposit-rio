@@ -1,4 +1,45 @@
+/* seleciona todos os elementos da página */
+* {
+    margin: 0; /* remove a margem padrão de todos os elementos */
+    padding: 0; /* remove o espaçamento interno padrão de todos os elementos */
+    box-sizing: border-box; /* faz largura e altura incluírem borda e padding no cálculo */
+}
 
+/* estiliza o corpo geral da página */
+body {
+    font-family: Arial, sans-serif; /* define a fonte principal do site */
+    background-color: #f0f4f8; /* define a cor de fundo da página */
+    color: #333333; /* define a cor padrão dos textos */
+}
+
+/* estiliza o cabeçalho */
+header {
+    background-color: #2b6cb0; /* define a cor de fundo do cabeçalho */
+    color: white; /* define a cor do texto do cabeçalho */
+    text-align: center; /* centraliza o texto dentro do cabeçalho */
+    padding: 30px; /* adiciona espaçamento interno em todos os lados */
+}
+
+/* estiliza a área principal */
+main {
+    width: 80%; /* faz a área principal ocupar 80% da largura da tela */
+    max-width: 900px; /* limita a largura máxima em 900 pixels */
+    margin: 30px auto; /* centraliza horizontalmente e adiciona margem superior e inferior */
+}
+
+/* estiliza o card principal de apresentação */
+.apresentacao {
+    background-color: white; /* define fundo branco para o card */
+    text-align: center; /* centraliza os textos e elementos internos */
+    padding: 30px; /* adiciona espaço interno no card */
+    border-radius: 10px; /* arredonda os cantos do card */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* cria uma sombra suave ao redor do card */
+    margin-bottom: 25px; /* adiciona espaço abaixo do card */
+    transition: 0.3s; /* cria transição suave em mudanças visuais */
+}
+
+/* estiliza a imagem dentro do card de apresentação */
+.apresentacao img {
     width: 150px; /* define largura fixa da imagem */
     height: 200px; /* define altura fixa da imagem, mantendo proporção próxima de 3x4 */
     object-fit: cover; /* evita deformação e recorta a imagem se necessário */
